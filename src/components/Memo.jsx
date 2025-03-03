@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 
 function ExpensiveComponent({ number }) {
   const squaredNumber = useMemo(() => {
-    console.log("Calculating square...");
+    console.log("Calculating squares...");
     return number * number;
   }, [number]);
 
