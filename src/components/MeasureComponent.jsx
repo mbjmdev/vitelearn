@@ -1,11 +1,11 @@
 import { useState, useLayoutEffect, useRef } from "react";
 
 function SmallScreen() {
-  return <h1>I am a small screen</h1>;
+  return <h1>Hey, I am a small screen</h1>;
 }
 
 function BigScreen() {
-  return <h1>I am a big screen</h1>;
+  return <h1>Hey, I am a big screen</h1>;
 }
 
 function MeasureComponent() {
